@@ -1,8 +1,13 @@
 Realizar los siguientes ejercicios:
 
 1. Hacer un programa que el usuario digite dos numeros y mostrar la suma y la resta de los mismos
+
 2. Hacer un programa que el usuario digite 2 numeros y mostrar las operaciones basicas (suma, resta, multiplicacion y division) con un respectivo numero, Ejemplo: 1: Suma, 2: Resta,.....
+
 Pedirle al usuario que digite que operacion desea hacer y mostrar el resultado. Es decir, si el usuario digita 2, debe realizar la resta respectivamente.
-3. Hacer un programa (usando objeto) que se digite el nombre de una persona, las horas trabajadas y el pago por hora, y mostrar cuanto va a ganar por las horas trabajadas.
+
+3. Hacer un programa que se digite el nombre de una persona, las horas trabajadas y el pago por hora, y mostrar cuanto va a ganar por las horas trabajadas.
+
 4. Hacer un programa que se digite el año de nacimiento y se muestre la edad de una persona.
-5. Hacer un programa que diga si un numero es par. 
+
+5. Hacer un programa que diga si un numero es par.
