@@ -1,0 +1,13 @@
+Dentro de un solo script.js, hacer los siguientes programas:
+(NOTA: Mientras los hace puede comentar el código para que pueda ir probando uno a uno, PERO al final debe quitar los comentarios para que se puedan ejecutar todos)
+
+1. Digitar la base y la altura de un triángulo y calcular e imprimir la hipotenusa.
+2. Digitar 4 notas y calcular e imprimir el promedio.
+3. Calcular la distancia recorrida (Buscar formula de la distancia)
+4. Calcular la hipotenusa de un triangulo
+5. Imprimir los números del 1 al 100
+6. Digitar el año de nacimiento e imprimir la edad actual
+7. Digitar un número y mostrar qué día de la semana es. Validar que no se pueda digitar un número que no sea mayor que 7 o menor que 1.
+8. Digitar un número y mostrar qué mes del año es. Validar que no se pueda digitar un número que no sea mayor que 12 o menor que 1.
+9. Digitar un número y decir si es par impar.
+10. Imprimir los números pares del 1 al 100.
