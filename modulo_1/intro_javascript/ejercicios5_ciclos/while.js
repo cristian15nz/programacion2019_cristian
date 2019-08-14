@@ -114,4 +114,4 @@ do {
 do {
     var contraseña1 = prompt("Digite la contraseña");
     var contraseña2 = prompt("Digite la confirmación de la contraseña");
-} while ( !(contraseña1 === contraseña2));
+} while ( !(contraseña1 === contraseña2) );
