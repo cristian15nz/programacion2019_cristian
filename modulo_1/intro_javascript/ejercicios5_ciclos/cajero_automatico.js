@@ -30,9 +30,13 @@ while (tarjeta != cliente.tarjeta) {
 var pin = prompt("Digite su PIN");
 
 // Validar que la longitud de digitos sea 4
-// Mostrar un mensaje en caso que la longitud sea mayor que 4
-if (pin.length > 4) {
-    alert("PIN invalido");
+while (pin.length !== 4) {
+    pin = prompt("Digite un PIN valido");
+}
+
+// Validar que el PIN ingresado coincida con la mia
+while (pin != cliente.pin) {
+    pin = prompt("PIN invalido. Intente de nuevo");
 }
 
 // 3. Mostrar opciones a realizar
@@ -42,6 +46,15 @@ var opcion = prompt(`Elija opcion a realizar
     2. Avance
     3. Chequear Balance
     4. Deposito`);
+
+// Validar que el usuario solo pueda digitar las opciones del 1 al 4
+while (opcion > 4 || opcion < 1) {
+    opcion = prompt(`Opcion Invalia. Elija opcion a realizar
+    1. Retiro
+    2. Avance
+    3. Chequear Balance
+    4. Deposito`);
+}
 
 // 5. Seleccionar tipo de cuenta
 var tipoCuenta = prompt(`Seleccione el Tipo de Cuenta
