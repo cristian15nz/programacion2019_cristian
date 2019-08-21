@@ -22,6 +22,20 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
+                <?php
+
+                if (isset($_GET)) {
+                    $usuario = new stdClass();
+                    $usuario->correo = $_GET['email'];
+                    $usuario->contrasena = $_GET['password'];
+
+                    echo "<div class='alert alert-success'>";
+                    echo "<p>Hola, se te enviara un correo a $usuario->correo</p>";
+                    echo "<p>Tu contraseña es $usuario->contrasena. No la compartas</p>";
+                    echo "</div>";
+                }
+
+                ?>
             </div>
         </div>
     </div>
