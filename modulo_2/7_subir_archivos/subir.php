@@ -13,21 +13,36 @@ if (isset($_POST['subir'])) {
         $nombre_tmp = $_FILES['archivo']['tmp_name'];
         $tamano = $_FILES['archivo']['size'];
 
-        if (is_uploaded_file($nombre_tmp)) {
-            $mensaje = "Hemos recibido el archivo";
+        echo "Tamano: " . $tamano;
 
-            // Mover el archivo a nuestra carpeta
-            $movido = move_uploaded_file($nombre_tmp, "archivos_recibidos/".$nombre);
+        $tamano_maximo = 2048; // 2KB
 
-            if ($movido) {
-                $mensaje = "El archivo se subio correctamente";
-            } else {
-                $error = "No se pudo subir correctamente";
-            }
-
+        if ($tamano > $tamano_maximo) {
+            $error = "El archivo no puede ser mayor a 2KB";
         } else {
-            $error = "No se pudo recibir el archivo";
+            if (is_uploaded_file($nombre_tmp)) {
+                $mensaje = "Hemos recibido el archivo";
+    
+                $directorio = 'archivos_recibidos';
+    
+                if(file_exists($directorio)) {
+                    // Mover el archivo a nuestra carpeta
+                    $movido = move_uploaded_file($nombre_tmp, $directorio."/".$nombre);
+    
+                    if ($movido) {
+                        $mensaje = "El archivo se subio correctamente";
+                    } else {
+                        $error = "No se pudo subir correctamente";
+                    }
+                }else {
+                    $error = "El directorio no existe";
+                }
+    
+            } else {
+                $error = "No se pudo recibir el archivo";
+            }
         }
+        
     }
     else {
         $error = "No se ha enviado un archivo";
