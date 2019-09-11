@@ -7,6 +7,8 @@
 	"settings": {
 		"files.autoSave": "onWindowChange",
 		"emmet.triggerExpansionOnTab": true,
-		"workbench.colorTheme": "Default Light+"
+		"workbench.colorTheme": "Default Light+",
+		"php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+		"php.validate.run": "onType",
 	}
 }
