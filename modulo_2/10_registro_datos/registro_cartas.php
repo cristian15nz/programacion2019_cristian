@@ -7,7 +7,7 @@ try {
     if (isset($_POST['guardar'])) {
         $nombre = $_POST['name'];
         $url = $_POST['link'];
-        $precio = $_POST['price'];
+        $precio = $_POST['price']; 
 
         // Validaciones
         if (empty($nombre)) {
@@ -23,7 +23,16 @@ try {
         }
 
         if (intval($precio) < 15) {
-            throw new Exception("El precio no puede ser menor que 15", 4);
+            throw new Exception("El precio no puede ser menor que 15", 3);
+        }
+
+        // Verificar que no exista en la base de datos
+        $sql = "SELECT id, name FROM cartas WHERE name LIKE '%$nombre%'";
+
+        $datos2 = $conexion->query($sql)->fetchAll();
+
+        if (count($datos2) > 0) {
+            throw new Exception("Ya existe este nombre. Elija otro", 1);
         }
 
         // Insertar     

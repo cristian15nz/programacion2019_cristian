@@ -18,7 +18,7 @@
                     <hr>
 
                     <div class="form-group">
-                        <input type="text" value="<?php if(isset($_POST['name'])) echo $_POST['name']; ?>" name="name" class="form-control" placeholder="Nombre">
+                        <input type="text" value="<?php echo $_POST['name'] ?? ''; ?>" name="name" class="form-control" placeholder="Nombre">
                         <?php 
                         if (isset($error) && $error['codigo'] == 1) {
                             echo $error['mensaje'];
