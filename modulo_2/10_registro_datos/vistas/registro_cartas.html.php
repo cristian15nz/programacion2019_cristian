@@ -49,6 +49,12 @@
                     </div>
                 </form>
 
+                <?php
+                    if (isset($error)) {
+                        echo $error['mensaje'];
+                    }
+                ?>
+
             </div>
         </div>
     </div>

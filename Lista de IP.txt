@@ -1,0 +1,8 @@
+Listado de IP
+
+10.30.4.189 Suarez
+10.30.4.131 Frias
+10.30.4.252 Ronny
+10.30.4.166 Ford
+10.30.4.246 Chris
+10.30.4.198 Norbin
