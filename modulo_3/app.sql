@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 12-09-2019 a las 18:34:32
+-- Tiempo de generación: 16-09-2019 a las 18:24:13
 -- Versión del servidor: 10.1.37-MariaDB
 -- Versión de PHP: 7.2.13
 
@@ -32,8 +32,44 @@ CREATE TABLE `cartas` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `name` varchar(100) NOT NULL,
   `link` varchar(200) NOT NULL,
-  `price` float NOT NULL
+  `price` float NOT NULL,
+  `activo` tinyint(1) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `cartas`
+--
+
+INSERT INTO `cartas` (`id`, `name`, `link`, `price`, `activo`) VALUES
+(1, 'Cristian', 'https://images.pexels.com/photos/1587036/pexels-photo-1587036.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', 15, 0),
+(3, 'Cristian3', 'https://images.pexels.com/photos/1587036/pexels-photo-1587036.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', 15, 1),
+(4, 'Pedro', 'https://images.pexels.com/photos/2749939/pexels-photo-2749939.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260', 55, 1),
+(5, 'Pedro2', 'https://images.pexels.com/photos/2749939/pexels-photo-2749939.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260', 55, 0),
+(6, 'Pedro23', 'https://images.pexels.com/photos/2749939/pexels-photo-2749939.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260', 55, 0),
+(7, 'Pedro234', 'https://images.pexels.com/photos/2749939/pexels-photo-2749939.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260', 55, 0),
+(8, 'Ford', 'https://images.pexels.com/photos/1496266/pexels-photo-1496266.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', 4100, 0),
+(9, 'Ford 2019', 'https://images.pexels.com/photos/1496266/pexels-photo-1496266.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', 4100, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `users`
+--
+
+CREATE TABLE `users` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `username` varchar(50) NOT NULL,
+  `password` varchar(80) NOT NULL,
+  `active` tinyint(1) NOT NULL DEFAULT '1'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `username`, `password`, `active`) VALUES
+(1, 'Christopher', 'criss', '123', 1);
 
 --
 -- Índices para tablas volcadas
@@ -47,6 +83,12 @@ ALTER TABLE `cartas`
   ADD UNIQUE KEY `name` (`name`);
 
 --
+-- Indices de la tabla `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -54,7 +96,13 @@ ALTER TABLE `cartas`
 -- AUTO_INCREMENT de la tabla `cartas`
 --
 ALTER TABLE `cartas`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT de la tabla `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
