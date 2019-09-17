@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 require_once 'conexion.php';
 
 try {
@@ -35,25 +37,35 @@ try {
             throw new Exception("Ya existe este nombre. Elija otro", 1);
         }
 
+        $id_user = $_SESSION['id_user'];
+
         // Insertar     
         $sql = "INSERT INTO cartas
-                (name, link, price)
+                (name, link, price, created_by)
                 VALUES
-                (\"$nombre\", \"$url\", \"$precio\")";
+                (\"$nombre\", \"$url\", \"$precio\", $id_user)";
 
         $resultado = $conexion->exec($sql);
 
         if ($resultado) {
             $mensaje = "Se guardaron los datos";
+            // Limpiar el POST
+            $_POST = [];
         } else {
             $mensaje = "No se pudieron guardar los datos";
         }
+
+        
 
         echo $mensaje;
 
     }    
 
-} catch(Exception $e) {
+} 
+catch(PDOException $x) {
+    echo $x->getMessage();
+}
+catch(Exception $e) {
     
     $error = [
         'codigo' => $e->getCode(),
