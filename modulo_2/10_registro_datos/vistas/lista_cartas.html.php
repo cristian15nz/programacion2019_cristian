@@ -29,6 +29,7 @@
                             <img src="'.$dato->link.'" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">'. $dato->name .'</h5>
+                                <p>Creador por: '.$dato->created_by.'</p>
                                 <p class="card-text text-success">$ '.$dato->price.'</p>
                                 <a href="ver_carta.php?id='.$dato->id.'" class="btn btn-primary">Ver producto</a>
 

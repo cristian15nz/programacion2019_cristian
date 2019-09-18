@@ -2,6 +2,12 @@
 
 session_start();
 
+// Verificar si el usuario no esta logeado
+if (! isset($_SESSION['id_user'])) {
+    header("Location: login.php");
+    exit;
+}
+
 require_once 'conexion.php';
 
 try {
@@ -54,8 +60,6 @@ try {
         } else {
             $mensaje = "No se pudieron guardar los datos";
         }
-
-        
 
         echo $mensaje;
 
