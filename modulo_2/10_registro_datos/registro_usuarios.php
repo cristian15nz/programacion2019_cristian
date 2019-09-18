@@ -55,12 +55,12 @@ try {
 }
 catch(PDOException $x) {
   die($x->getMessage());
-} 
+}
 catch(Exception $e) {
     
   $error = [
-      'codigo' => $e->getCode(),
-      'mensaje' => $e->getMessage()
+    'codigo' => $e->getCode(),
+    'mensaje' => $e->getMessage()
   ];
 
 }

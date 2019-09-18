@@ -9,12 +9,17 @@ if (isset($_POST['login'])) {
   $password = $_POST['password'];
 
   // Buscar esos datos en la base de datos
-  $sql = "SELECT id, name, username FROM users 
-          WHERE username = '$username' AND password = '$password' ";
+  $sql = "SELECT id, name, username, password FROM users 
+          WHERE username = '$username' ";
 
   $resultado = $conexion->query($sql)->fetch();
 
   if ($resultado) {
+    // Comparar la contraseña encriptada
+    if (! password_verify($password, $resultado->password)) {
+      throw new Exception("La contraseña no coincide");
+    }
+
     // Iniciar sesion
     $_SESSION['id_user'] = $resultado->id;
     $_SESSION['name_user'] = $resultado->name;
