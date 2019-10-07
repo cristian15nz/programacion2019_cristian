@@ -1,0 +1,5 @@
+C:\xampp\htdocs\AplicacionConsola\AplicacionConsola\bin\Debug\AplicacionConsola.exe.config
+C:\xampp\htdocs\AplicacionConsola\AplicacionConsola\bin\Debug\AplicacionConsola.exe
+C:\xampp\htdocs\AplicacionConsola\AplicacionConsola\bin\Debug\AplicacionConsola.pdb
+C:\xampp\htdocs\AplicacionConsola\AplicacionConsola\obj\Debug\AplicacionConsola.exe
+C:\xampp\htdocs\AplicacionConsola\AplicacionConsola\obj\Debug\AplicacionConsola.pdb

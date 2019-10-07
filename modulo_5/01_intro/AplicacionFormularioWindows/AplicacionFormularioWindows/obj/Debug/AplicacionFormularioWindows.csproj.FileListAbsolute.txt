@@ -1,0 +1,8 @@
+C:\xampp\htdocs\AplicacionFormularioWindows\AplicacionFormularioWindows\bin\Debug\AplicacionFormularioWindows.exe.config
+C:\xampp\htdocs\AplicacionFormularioWindows\AplicacionFormularioWindows\bin\Debug\AplicacionFormularioWindows.exe
+C:\xampp\htdocs\AplicacionFormularioWindows\AplicacionFormularioWindows\bin\Debug\AplicacionFormularioWindows.pdb
+C:\xampp\htdocs\AplicacionFormularioWindows\AplicacionFormularioWindows\obj\Debug\AplicacionFormularioWindows.Form1.resources
+C:\xampp\htdocs\AplicacionFormularioWindows\AplicacionFormularioWindows\obj\Debug\AplicacionFormularioWindows.Properties.Resources.resources
+C:\xampp\htdocs\AplicacionFormularioWindows\AplicacionFormularioWindows\obj\Debug\AplicacionFormularioWindows.csproj.GenerateResource.Cache
+C:\xampp\htdocs\AplicacionFormularioWindows\AplicacionFormularioWindows\obj\Debug\AplicacionFormularioWindows.exe
+C:\xampp\htdocs\AplicacionFormularioWindows\AplicacionFormularioWindows\obj\Debug\AplicacionFormularioWindows.pdb
