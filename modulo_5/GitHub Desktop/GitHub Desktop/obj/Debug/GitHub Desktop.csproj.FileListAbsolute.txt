@@ -1,0 +1,12 @@
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\GitHub Desktop\GitHub Desktop\bin\Debug\GitHub Desktop.exe.config
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\GitHub Desktop\GitHub Desktop\bin\Debug\GitHub Desktop.exe
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\GitHub Desktop\GitHub Desktop\bin\Debug\GitHub Desktop.pdb
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\GitHub Desktop\GitHub Desktop\obj\Debug\GitHub Desktop.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\GitHub Desktop\GitHub Desktop\obj\Debug\GitHub_Desktop.FormStart.resources
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\GitHub Desktop\GitHub Desktop\obj\Debug\GitHub_Desktop.FormMake.resources
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\GitHub Desktop\GitHub Desktop\obj\Debug\GitHub_Desktop.Properties.Resources.resources
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\GitHub Desktop\GitHub Desktop\obj\Debug\GitHub Desktop.csproj.GenerateResource.Cache
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\GitHub Desktop\GitHub Desktop\obj\Debug\GitHub Desktop.exe
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\GitHub Desktop\GitHub Desktop\obj\Debug\GitHub Desktop.pdb
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\GitHub Desktop\GitHub Desktop\obj\Debug\GitHub_Desktop.FormConfigure.resources
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\GitHub Desktop\GitHub Desktop\obj\Debug\GitHub_Desktop.FormSignIn.resources
