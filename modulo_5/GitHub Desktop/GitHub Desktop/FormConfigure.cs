@@ -25,5 +25,15 @@ namespace GitHub_Desktop
             // Mostrar el formulario
             formularioFormMake.Show();
         }
+
+        private void FormConfigure_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            lblCommit.Text = txtName.Text + " commited 30 minutes ago";
+        }
     }
 }

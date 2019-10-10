@@ -41,5 +41,36 @@ namespace GitHub_Desktop
         {
             System.Diagnostics.Process.Start("https://github.com/login");
         }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+            var longitudUsername = txtUsername.Text.Length;
+            var longitudPassword = txtPassword.Text.Length;
+
+            if ( longitudUsername > 0 && longitudPassword > 0 ) {
+                btnSignIn.Enabled = true;
+            }
+            else
+            {
+                btnSignIn.Enabled = false;
+            }
+
+
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+            var longitudUsername = txtUsername.Text.Length;
+            var longitudPassword = txtPassword.Text.Length;
+
+            if (longitudUsername > 0 && longitudPassword > 0)
+            {
+                btnSignIn.Enabled = true;
+            }
+            else
+            {
+                btnSignIn.Enabled = false;
+            }
+        }
     }
 }
