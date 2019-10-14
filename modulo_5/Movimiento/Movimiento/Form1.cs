@@ -25,11 +25,53 @@ namespace Movimiento
             var posicionX = label2.Location.X;
             var posicionY = label2.Location.Y;
 
-            // Izquierda
-            if (keyValue == 37)
+            // Reset
+            if (keyValue == 82)
             {
+                /* Centrado relativo al padre */
+                var anchoPadre = label1.Width;
+                var anchoHijo = label2.Width;
+                var margenX = label1.Location.X;
+
+                var centroX = ((anchoPadre + anchoHijo) / 2) - margenX;
+
+                var alturaPadre = label1.Height;
+                var alturaHijo = label2.Height;
+                var margenY = label1.Location.Y;
+
+                var centroY = ((alturaPadre + alturaHijo) / 2) - margenY;
+
+                /* Centrado absoluto (al formulario) */
+                anchoPadre = this.Width;
+                anchoHijo = label2.Width;
+              
+                alturaPadre = this.Height;
+                alturaHijo = label2.Height;
+
+                centroY = (alturaPadre + alturaHijo) / 2;
+                centroX = (anchoPadre + anchoHijo) / 2;
+
+                MessageBox.Show("Reseting game...");
+                label2.Location = new System.Drawing.Point(centroX, centroY);
+            }
+
+            // Cambiar color
+            if (keyValue == 67)
+            {
+                MessageBox.Show("Cambiando color.");
+            }
+
+            // Izquierda
+            if (keyValue == 37 || keyValue == 65)
+            {
+                if (posicionX <= 15)
+                {
+                    return;
+                }
+              
                 label2.Location = new System.Drawing.Point(posicionX - 1, posicionY);
                 label3.Text = label2.Location.ToString();
+                
             }
 
             // Arriba
@@ -42,8 +84,14 @@ namespace Movimiento
             // Derecha
             if (keyValue == 39)
             {
+                if (posicionX >= 335)
+                {
+                    return;
+                }
+                
                 label2.Location = new System.Drawing.Point(posicionX + 1, posicionY);
                 label3.Text = label2.Location.ToString();
+                                
             }
 
             // Abajo
@@ -55,6 +103,11 @@ namespace Movimiento
 
 
             // 
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

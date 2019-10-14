@@ -7,3 +7,12 @@ c:\users\profesor\documents\visual studio 2013\Projects\Movimiento\Movimiento\ob
 c:\users\profesor\documents\visual studio 2013\Projects\Movimiento\Movimiento\obj\Debug\Movimiento.csproj.GenerateResource.Cache
 c:\users\profesor\documents\visual studio 2013\Projects\Movimiento\Movimiento\obj\Debug\Movimiento.exe
 c:\users\profesor\documents\visual studio 2013\Projects\Movimiento\Movimiento\obj\Debug\Movimiento.pdb
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Movimiento\Movimiento\bin\Debug\Movimiento.exe.config
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Movimiento\Movimiento\obj\Debug\Movimiento.exe
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Movimiento\Movimiento\obj\Debug\Movimiento.pdb
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Movimiento\Movimiento\bin\Debug\Movimiento.exe
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Movimiento\Movimiento\bin\Debug\Movimiento.pdb
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Movimiento\Movimiento\obj\Debug\Movimiento.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Movimiento\Movimiento\obj\Debug\Movimiento.Form1.resources
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Movimiento\Movimiento\obj\Debug\Movimiento.Properties.Resources.resources
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Movimiento\Movimiento\obj\Debug\Movimiento.csproj.GenerateResource.Cache
