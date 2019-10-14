@@ -48,8 +48,9 @@ namespace Movimiento
                 alturaPadre = this.Height;
                 alturaHijo = label2.Height;
 
-                centroY = (alturaPadre + alturaHijo) / 2;
+            
                 centroX = (anchoPadre + anchoHijo) / 2;
+                centroY = (alturaPadre + alturaHijo) / 2;
 
                 MessageBox.Show("Reseting game...");
                 label2.Location = new System.Drawing.Point(centroX, centroY);
