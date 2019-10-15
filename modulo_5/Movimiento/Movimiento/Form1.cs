@@ -42,15 +42,18 @@ namespace Movimiento
                 var centroY = ((alturaPadre + alturaHijo) / 2) - margenY;
 
                 /* Centrado absoluto (al formulario) */
-                anchoPadre = this.Width;
+                anchoPadre = this.Width; 
                 anchoHijo = label2.Width;
               
                 alturaPadre = this.Height;
                 alturaHijo = label2.Height;
 
-            
-                centroX = (anchoPadre + anchoHijo) / 2;
-                centroY = (alturaPadre + alturaHijo) / 2;
+                // Bordes
+                var bordeX = 18;
+                var bordeY = 47;
+
+                centroX = (anchoPadre / 2) - (anchoHijo / 2) - bordeX;
+                centroY = (alturaPadre / 2) - (alturaHijo / 2) - bordeY;
 
                 MessageBox.Show("Reseting game...");
                 label2.Location = new System.Drawing.Point(centroX, centroY);
@@ -59,7 +62,23 @@ namespace Movimiento
             // Cambiar color
             if (keyValue == 67)
             {
-                MessageBox.Show("Cambiando color.");
+                //MessageBox.Show("Cambiando color.");
+
+                var random = new Random();
+
+                var numeroAleatorio = random.Next(0, 4);
+
+                // Listado de colores
+                Color[] colores = {Color.Blue, Color.Red, Color.Green, Color.Pink, Color.Peru};
+
+                label2.BackColor = colores[numeroAleatorio];
+
+                // Colores en RGB
+                var red = random.Next(255);
+                var green = random.Next(255);
+                var blue = random.Next(255);
+
+                label2.BackColor = Color.FromArgb(red, green, blue);
             }
 
             // Izquierda
@@ -107,6 +126,11 @@ namespace Movimiento
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
