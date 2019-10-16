@@ -37,6 +37,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.lblFlag = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -46,6 +47,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(350, 400);
             this.label1.TabIndex = 0;
+            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             // 
             // label2
             // 
@@ -55,6 +57,7 @@
             this.label2.Size = new System.Drawing.Size(30, 30);
             this.label2.TabIndex = 1;
             this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.label2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label2_MouseMove);
             // 
             // label3
             // 
@@ -119,12 +122,23 @@
             this.label9.TabIndex = 8;
             this.label9.Text = "Teclas especiales";
             // 
+            // lblFlag
+            // 
+            this.lblFlag.AutoSize = true;
+            this.lblFlag.Location = new System.Drawing.Point(407, 231);
+            this.lblFlag.Name = "lblFlag";
+            this.lblFlag.Size = new System.Drawing.Size(86, 17);
+            this.lblFlag.TabIndex = 9;
+            this.lblFlag.Text = "Desactivado";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(554, 453);
+            this.Controls.Add(this.lblFlag);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -134,6 +148,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -154,6 +169,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblFlag;
     }
 }
 

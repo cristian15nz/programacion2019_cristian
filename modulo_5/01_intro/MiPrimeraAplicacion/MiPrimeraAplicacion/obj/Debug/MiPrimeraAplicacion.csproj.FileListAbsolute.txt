@@ -7,3 +7,6 @@ C:\xampp\htdocs\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\MiPrimeraAplic
 C:\xampp\htdocs\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\MiPrimeraAplicacion.csproj.GenerateResource.Cache
 C:\xampp\htdocs\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\MiPrimeraAplicacion.exe
 C:\xampp\htdocs\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\MiPrimeraAplicacion.pdb
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\01_intro\MiPrimeraAplicacion\MiPrimeraAplicacion\bin\Debug\MiPrimeraAplicacion.exe.config
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\01_intro\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\MiPrimeraAplicacion.exe
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\01_intro\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\MiPrimeraAplicacion.pdb

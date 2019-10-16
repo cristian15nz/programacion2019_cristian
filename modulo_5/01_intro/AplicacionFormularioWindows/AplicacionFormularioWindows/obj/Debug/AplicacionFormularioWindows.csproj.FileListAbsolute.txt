@@ -6,3 +6,6 @@ C:\xampp\htdocs\AplicacionFormularioWindows\AplicacionFormularioWindows\obj\Debu
 C:\xampp\htdocs\AplicacionFormularioWindows\AplicacionFormularioWindows\obj\Debug\AplicacionFormularioWindows.csproj.GenerateResource.Cache
 C:\xampp\htdocs\AplicacionFormularioWindows\AplicacionFormularioWindows\obj\Debug\AplicacionFormularioWindows.exe
 C:\xampp\htdocs\AplicacionFormularioWindows\AplicacionFormularioWindows\obj\Debug\AplicacionFormularioWindows.pdb
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\01_intro\AplicacionFormularioWindows\AplicacionFormularioWindows\bin\Debug\AplicacionFormularioWindows.exe.config
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\01_intro\AplicacionFormularioWindows\AplicacionFormularioWindows\obj\Debug\AplicacionFormularioWindows.exe
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\01_intro\AplicacionFormularioWindows\AplicacionFormularioWindows\obj\Debug\AplicacionFormularioWindows.pdb

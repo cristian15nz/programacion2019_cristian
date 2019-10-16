@@ -12,6 +12,8 @@ namespace Movimiento
 {
     public partial class Form1 : Form
     {
+        public bool mouseActivado = false;
+
         public Form1()
         {
             InitializeComponent();
@@ -81,6 +83,28 @@ namespace Movimiento
                 label2.BackColor = Color.FromArgb(red, green, blue);
             }
 
+            // Activar el movimiento con el mouse
+            if (keyValue == 77) {     
+
+                // Si está activo
+                if (mouseActivado)
+                {
+                    MessageBox.Show("Desactivando movimiento con el mouse");
+
+                    mouseActivado = false;
+
+                    lblFlag.Text = "Desactivado";
+                }
+                else
+                {
+                    MessageBox.Show("Activando movimiento con el mouse");
+
+                    mouseActivado = true;
+
+                    lblFlag.Text = "Activado";
+                }
+            }
+
             // Izquierda
             if (keyValue == 37 || keyValue == 65)
             {
@@ -122,7 +146,27 @@ namespace Movimiento
             }
 
 
-            // 
+            // Aumentar de tamaño con la tecla [+]
+            if (keyValue == 107)
+            {   // Limitar que el tamaño maximo sea 200
+                if (label2.Width < 200)
+                {
+                    label2.Width += 5;
+                    label2.Height += 5;
+                }
+                
+            }
+
+            // Disminuir de tamaño con la tecla [-]
+            if (keyValue == 109)
+            {
+                if (label2.Width > 10)
+                {
+                    label2.Width -= 5;
+                    label2.Height -= 5;
+                }
+                
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -133,6 +177,27 @@ namespace Movimiento
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label1_MouseMove(object sender, MouseEventArgs e)
+        {
+            //MessageBox.Show("Te estas moviendo");
+
+            if (mouseActivado)
+            {
+                var locationX = e.Location.X;
+                var locationY = e.Location.Y;
+
+                label2.Location = new System.Drawing.Point(locationX, locationY);
+
+            }
+
+            //System.Diagnostics.Trace.WriteLine(location);
+        }
+
+        private void label2_MouseMove(object sender, MouseEventArgs e)
+        {
+            
         }
     }
 }
