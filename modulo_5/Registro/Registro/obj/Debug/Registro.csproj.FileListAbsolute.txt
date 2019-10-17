@@ -1,0 +1,9 @@
+c:\users\profesor\documents\visual studio 2013\Projects\Registro\Registro\bin\Debug\Registro.exe.config
+c:\users\profesor\documents\visual studio 2013\Projects\Registro\Registro\bin\Debug\Registro.exe
+c:\users\profesor\documents\visual studio 2013\Projects\Registro\Registro\bin\Debug\Registro.pdb
+c:\users\profesor\documents\visual studio 2013\Projects\Registro\Registro\obj\Debug\Registro.csprojResolveAssemblyReference.cache
+c:\users\profesor\documents\visual studio 2013\Projects\Registro\Registro\obj\Debug\Registro.Form1.resources
+c:\users\profesor\documents\visual studio 2013\Projects\Registro\Registro\obj\Debug\Registro.Properties.Resources.resources
+c:\users\profesor\documents\visual studio 2013\Projects\Registro\Registro\obj\Debug\Registro.csproj.GenerateResource.Cache
+c:\users\profesor\documents\visual studio 2013\Projects\Registro\Registro\obj\Debug\Registro.exe
+c:\users\profesor\documents\visual studio 2013\Projects\Registro\Registro\obj\Debug\Registro.pdb
