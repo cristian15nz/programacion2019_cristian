@@ -1,0 +1,9 @@
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Controles\Controles\bin\Debug\Controles.exe.config
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Controles\Controles\bin\Debug\Controles.exe
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Controles\Controles\bin\Debug\Controles.pdb
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Controles\Controles\obj\Debug\Controles.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Controles\Controles\obj\Debug\Controles.Form1.resources
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Controles\Controles\obj\Debug\Controles.Properties.Resources.resources
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Controles\Controles\obj\Debug\Controles.csproj.GenerateResource.Cache
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Controles\Controles\obj\Debug\Controles.exe
+C:\xampp\htdocs\programacion2019_cristian\modulo_5\Controles\Controles\obj\Debug\Controles.pdb
